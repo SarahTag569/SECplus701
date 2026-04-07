@@ -329,10 +329,10 @@ dial-peer voice 41 Voip
  destination-pattern 41..
  session target ipv4:10.41.100.8
  codec g711ULAW
-dial-peer voice  Voip
- destination-pattern ..
- session target ipv4:10..100.8
- codec g711ULAW
+!dial-peer voice 42 Voip
+ !destination-pattern 42..
+ !session target ipv4:10.42.100.8
+ !codec g711ULAW
 dial-peer voice 51 Voip
  destination-pattern 51..
  session target ipv4:10.51.100.8
@@ -363,6 +363,14 @@ dial-peer voice 81 Voip
  codec g711ULAW
 dial-peer voice 82 Voip
  destination-pattern 82..
+ session target ipv4:10.82.100.8
+ codec g711ULAW
+dial-peer voice 91 Voip
+ destination-pattern 91..
+ session target ipv4:10.91.100.8
+ codec g711ULAW
+dial-peer voice 92 Voip
+ destination-pattern 92..
  session target ipv4:10.82.100.8
  codec g711ULAW
 
